@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "Youtube Ad Skipper",
+	"description": "Automatically clicks Skip Ad",
+	"version": "1.0",
+	"icons": {
+		"16": "youtube_skipper_icon_16.png",
+		"48": "youtube_skipper_icon_48.png"
+	},
+	"content_scripts": [
+	{ 
+		"run_at" :"document_start",
+		"matches": ["https://*.youtube.com/*"],
+		"js": ["youtubeScript.js"] 
+	}
+],
+	"browser_action": {
+		"default_icon": "youtube_skipper_icon_16.png",
+		"default_title": "Youtube Skipper"
+	}
+}
