@@ -1,5 +1,5 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 
 	"name": "Youtube Ad Skipper",
 	"description": "Automatically clicks Skip Ad",
@@ -15,7 +15,7 @@
 		"js": ["youtubeScript.js"] 
 	}
 ],
-	"browser_action": {
+	"action": {
 		"default_icon": "youtube_skipper_icon_16.png",
 		"default_title": "Youtube Skipper"
 	}
